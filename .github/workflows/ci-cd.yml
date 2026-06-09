@@ -129,3 +129,8 @@ jobs:
           # Direct execution (after downloading)
           chmod +x my_app
           ./my_app
+
+          files: |
+          ./executable/my_app
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
