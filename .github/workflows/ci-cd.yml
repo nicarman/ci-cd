@@ -131,6 +131,6 @@ jobs:
           ./my_app
 
           files: |
-./executable/my_app
-env:
-GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ./executable/my_app
+          env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
